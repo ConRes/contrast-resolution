@@ -9,63 +9,63 @@ There are some 29 implementations of the Target, each one hand programmed in Pos
 Version 1 shown in Figure 1 used a continuously varying checkerboard pattern to test ConRes.
 
 <figure>
-<img width=100% src=./content/assets/aConRes1.png/>
+<img width=100% src="./content/assets/aConRes1.png" />
 <figcaption align=center>Figure 1 — ConRes Target Version 1 — created April 2000</figcaption>
 </figure>
 
 Checkerboards created interference patterns with the addressability grid, and therefore it was decided to use parallel lines for version 5 (Figure 2).
 
 <figure>
-<img width=100% src=./content/assets/aConRes5.png />
+<img width=100% src="./content/assets/aConRes5.png" />
 <figcaption align=center>Figure 2 — ConRes Target Version 5 — created June 2000</figcaption>
 </figure>
 
 Two color overprints are also affected by the accuracy of registration. Since we want to test for Resolution at various Contrasts, the multicolor blocks are not needed in the target. Furthermore, yellow is difficult to see, and therefore is left out of version 8 of the target (Figure 3).
 
 <figure>
-<img width=100% src=./content/assets/aConRes8F.png />
+<img width=100% src="./content/assets/aConRes8F.png" />
 <figcaption align=center>Figure 3 — ConRes Target Version 8 — created November 2000</figcaption>
 </figure>
 
 By adding a visual reference tone value area near each patch, making the blocks rectangular, more efficient use of space can be made and there is room for documentation of the numeric values of the patches (Figure 4).
 
 <figure>
-<img width=100% src=./content/assets/aCONRE13U.png />
+<img width=100% src="./content/assets/aCONRE13U.png" />
 <figcaption align=center>Figure 4 — ConRes Target Version 9 — created December 2000</figcaption>
 </figure>
 
 May be gradients provide an additional visual evaluation of tone reproduction? (Figure 5).
 
 <figure>
-<img width=100% src=./content/assets/cCONRES9U.png />
+<img width=100% src="./content/assets/cCONRES9U.png" />
 <figcaption align=center>Figure 5 — ConRes Target Version 13 — created April 2002</figcaption>
 </figure>
 
 Figure 6 shows one way to report the results of an evaluation. The area under each curve is a measure of Contrast-Resolution performance and can be used as a figure of merit called CR index.
 
 <figure>
-<img width=100% src=./content/assets/aEliot_Harper_Thesis_3D.png />
+<img width=100% src="./content/assets/aEliot_Harper_Thesis_3D.png" />
 <figcaption align=center>Figure 6 — Excel Spreadsheet for Evaluation —of ConRes target, updated May 2002 with TAGA data.</figcaption>
 </figure>
 
 Since there are three variables, the data can be shown as a 3D graph (Figure 7), and the figure of merit can be called Contrast Resolution Volume (CRV).
 
 <figure>
-<img width=100% src=./content/assets/Conres24_TAGA.graphs.png />
+<img width=100% src="./content/assets/Conres24_TAGA.graphs.png" />
 <figcaption align=center>Figure 7 — 3D graphs in Excel —Spreadsheet for Evaluation of ConRes target, updated May 2002</figcaption>
 </figure>
 
 The print engine for black is the same as the ones for color, therefore Figure 8 shows that it is really enough to only test the black channel of an output device, making the target even smaller.
 
 <figure>
-<img width=100% src=./content/assets/cCONRE14U.png />
+<img width=100% src="./content/assets/cCONRE14U.png" />
 <figcaption align=center>Figure 8 — ConRes Target Version 14 — created July 2002</figcaption>
 </figure>
 
 A big innovation occurred when it was realized that circles are a much better way to test for ConRes capability. By simply answering the question whether the circles of a given patch are recognizable or not, a simply yes or no answer evaluates perceptional quality in all directions. The first circular version was number 16. Figure 9 shows version 18.
 
 <figure>
-<img width=100% src=./content/assets/cConRe18F.png />
+<img width=100% src="./content/assets/cConRe18F.png" />
 <figcaption align=center>Figure 9 — ConRes Target Version 18 — created Apr 2000</figcaption>
 </figure>
 
@@ -74,14 +74,14 @@ The target has the capability to be adjusted by different parameters that can be
 It is also possible to adjust the average tone value of the target. So far, the targets that were shown have a 50% tone value. By adjusting the tone value of the dark and light circles of a patch, different average tone values can be obtained. This way the ConRes performance at different tone value levels can be tested. See version 28 of the target at the end of this paper in Figures 12 and 13.
 
 <figure>
-<img width=100% src=./content/assets/cCirRe22F.png />
+<img width=100% src="./content/assets/cCirRe22F.png" />
 <figcaption align=center>Figure 10 — ConRes Target Version 22 — created October 2007</figcaption>
 </figure>
 
 Since the circular pattern is symmetrical around its center, it is possible to split the circles in half and still sample all angular directions. Each half of a circular patch can then have a slightly different treatment. In the following example of Figure 11, one half is Black only, while the other halve is CMY and therefore also subject to misregistration.
 
 <figure>
-<img width=100% src=./content/assets/cCIRRe221U.png />
+<img width=100% src="./content/assets/cCIRRe221U.png" />
 <figcaption align=center>Figure 11 — Split patches setting for —section of ConRes Target Version 22</figcaption>
 </figure>
 
@@ -92,12 +92,12 @@ It is also possible to adjust the average tone value of the target since version
 Beginning in 2007, targets were used in test pages made for ISO/IEC JTC-1 SC28 WG4. Eric Zeise from Kodak, developed a Matlab program that facilitated visual evaluation of the target and was used for ISO. Saleh Motaal wrote another analysis software that eventually should automatically analyze an image created by scanning a print from the ConRes test target. The data input modules are done, but the automatic analysis was not completed.
 
 <figure>
-<img width=100% src=./content/assets/cCIRRE28U.png />
+<img width=100% src="./content/assets/cCIRRE28U.png" />
 <figcaption align=center>Figure 12 — ConRes Target Version 28 — created February 2008</figcaption>
 </figure>
 
 <figure>
-<img width=100% src=./content/assets/CirRe33_2_pages-s.jpg />
+<img width=100% src="./content/assets/CirRe33_2_pages-s.jpg" />
 <figcaption align=center>Figure 13 — High sampling, two —page layout</figcaption>
 </figure>
 
@@ -106,19 +106,19 @@ Small step increments for the three variables of Contrast Resolution and ToneVal
 Figure 14 shows a possible version of high resolution ConRes Gamut graphs. Figure 15 shows how different gamuts can be compared. CRI is the ConRes Index which is measured by the volume underneath the gamut surface.
 
 <figure>
-<img width=100% src=./content/assets/NP_Gloss-600_Graphs.png/>
+<img width=100% src="./content/assets/NP_Gloss-600_Graphs.png" />
 <figcaption align=center>Figure 14 — ConRes Gamut plots for —both Good and Just Acceptable resolution</figcaption>
 </figure>
 
 <figure>
-<img width=100% src=./content/assets/NP_Gloss-600_-_Uncoated_Graphs.png/>
+<img width=100% src="./content/assets/NP_Gloss-600_-_Uncoated_Graphs.png" />
 <figcaption align=center>Figure 15 — ConRes Gamut comparison for —coated and uncoated paper</figcaption>
 </figure>
 
 <figure float:= left max-width:=50%>
 </figcaption>
 <figcaption align=center>Figure 16 — Version released for ISO —testing on 20/12/2012.
-<img width=100% src=./content/assets/ConRes281PDi.png/>
+<img width=100% src="./content/assets/ConRes281PDi.png" />
 </figure>
 
 ---
@@ -128,7 +128,7 @@ The version shown in figure 16 has been released for testing by ISO WG4 and JWG 
 In addition, the target is also used in tests conducted to see how much JPEG can be used and still get good quality for archiving documents for the Library of Congress.
 
 <figure clear:=both>
-<img width=100% src=./content/assets/ConRes283_Uni_Stuttgart_F.png/>
+<img width=100% src="./content/assets/ConRes283_Uni_Stuttgart_F.png" />
 <figcaption align=center>Figure 17 — A very compact version —/figcaption>
 </figure>
 
@@ -155,7 +155,7 @@ In addition to the analysis routine it was also necessary to specify scanner con
 Part of the research that Eric conducted showed that the fiducial marks of the existing targets were difficult to unambiguously automatically detect, and therefore a new version named `ISO_ConRes19g.PDF` was created as shown in Figure 18. The reference tint around each patch is now symmetrically distributed, with the fiducial marks in the frame and no longer touching the patches. Also, a step wedge was added to allow verification of <q>linear</q> tone reproduction. The gray background also helps to reduce edge effects due to internal reflections in the paper substrate.
 
 <figure>
-<img width=100% src=./content/assets/ISO_ConRes19g.png/>
+<img width=100% src="./content/assets/ISO_ConRes19g.png" />
 <figcaption align=center>Figure 18 — Proposed version for ISO_DTS_18621 —31</figcaption>
 </figure>
 

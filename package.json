@@ -19,9 +19,7 @@
 		"http-server": "*",
 		"prettier": "*",
 		"rollup": "*",
-		"typescript": "*"
-	},
-	"otherDependencies": {
+		"typescript": "*",
 		"@smotaal/esm": "SMotaal/esm",
 		"@smotaal/pholio": "SMotaal/pholio"
 	}

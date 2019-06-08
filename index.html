@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contrast-Resolution</title>
+  <!-- <base href="." /> -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link id="style:styles/markout.css" rel=preload as=style href="https://smotaal.io/markout/styles/markout.css" />
+  <link rel=stylesheet href="https://smotaal.io/markout/styles/styles.css" />
+  <script type="module">
+    // import('https://www.smotaal.io/pholio/dist/pholio.js');
+    // /localhost|0.0.0.0|\.local\./.test(location.origin);
+
+    (async () => {
+
+      if (location.protocol === 'http') {
+        try {
+          return import('/node_modules/@smotaal/pholio/dist/pholio.js');
+        } catch (exception) {
+        }
+      }
+      import('https://www.smotaal.io/pholio/dist/pholio.js');
+    })();
+
+  </script>
+</head>
+
+<body>
+  <main>
+    <markout-content src=History.md></markout-content>
+  </main>
+</body>
+
+</html>

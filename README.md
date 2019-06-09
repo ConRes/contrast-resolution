@@ -1,20 +1,23 @@
-<div align=center>
+<title>Contrast-Resolution</title>
 
-# Contrast-Resolution
+<div align=center display:=flex place-self:=center>
 
-<div align=center>
+<aside>
 
-<table width=90%>
+<img width=100% title="Contrast-Resolution" src="./assets/contrast-resolution-preview.png" />
 
-<thead><tr><th colspan=2>
+We're finally giving the Contrast-Resolution it's home on the web, where you will soon be able to catch up on related updates and access a lot technical matter going back to 1999 when it was first created by Franz Sigg.
 
-### Changes
+</aside>
 
+<table>
+
+<tr><th colspan=2>Changes
 <tbody>
 
 <tr><th><code>0.0.0-alpha.1</code><td>
 
-- Create new structure
+- Initial Markout-based landing page
 
 </table>
 
